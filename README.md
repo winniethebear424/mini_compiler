@@ -1,16 +1,18 @@
 ### project will be uploaded soon
 
-### practices for compiler projects
+A simple, C-based compiler that tokenizes, parses, and generates LLVM IR code for a custom programming language. Built with a lexer and parser using recursive descent, the project constructs an Abstract Syntax Tree (AST) for semantic analysis and code generation. The backend is powered by Rust and the inkwell library to output efficient LLVM IR. This compiler is designed for educational purposes to explore the fundamentals of compiler design and code generation.
 
-### Define the Language
-##### Syntax (e.g., expressions, loops, conditionals).
+#### practices for compiler projects
 
-##### Data types (e.g., integers, floats, strings).
+#### Define the Language
+###### Syntax (e.g., expressions, loops, conditionals).
 
-##### Basic operations (e.g., arithmetic, logical).
+###### Data types (e.g., integers, floats, strings).
 
-##### Tools: Consider using BNF (Backus-Naur Form) to define the grammar
+###### Basic operations (e.g., arithmetic, logical).
 
-### 2. Lexical Analysis (Tokenizer)
+###### Tools: Consider using BNF (Backus-Naur Form) to define the grammar
 
-### 3. Syntax Analysis (Parser)
+#### 2. Lexical Analysis (Tokenizer)
+
+#### 3. Syntax Analysis (Parser)
